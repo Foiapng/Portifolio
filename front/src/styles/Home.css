@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center; 
   align-content: center;
-  height: 60%;
-  background-image: url("/Placeholder.png");
+  height: 58vh;
+  background-image: url("/Mosaico.png");
   background-repeat: repeat;
-  background-size: 80%;
+  background-size: 75%;
   animation-name: Background;
   animation-duration: 30s;
   animation-iteration-count: infinite;

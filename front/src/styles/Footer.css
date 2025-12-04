@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     box-shadow: 0 -30px 30px var(--main-color);
+    bottom: 0%;
 }
 
 .Footer__Contato {

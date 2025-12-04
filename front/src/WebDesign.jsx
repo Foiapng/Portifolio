@@ -10,11 +10,11 @@ const animationClass = useAnimateRoutes()
   <section className={animationClass}>
     <Header/>
     <section className='WebDesign'>
-        <h1>Alguns Sites que participei</h1>
-        <section>
-          <button>Cosmica</button>
-          <button>Novo Horizonte Ambiental</button>
-          <button>Integração APIs</button>
+        <h1 className='WebDesign__Titulo'>Alguns Sites que participei</h1>
+        <section className='WebDesign__BtnGroup'>
+          <button className='WebDesign__Btn'>Cosmica</button>
+          <button className='WebDesign__Btn'>Novo Horizonte Ambiental</button>
+          <button className='WebDesign__Btn'>Integração APIs</button>
         </section>
       </section>
             <Footer />

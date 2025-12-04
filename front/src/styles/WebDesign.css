@@ -1,0 +1,33 @@
+.WebDesign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.WebDesign__Titulo {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.WebDesign__BtnGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+
+.WebDesign__Btn {
+    width: 20%;
+    height: 90px;
+    font-size: 1.2em;
+    background-color: var(--main-color);
+    border: 5px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.WebDesign__Btn:hover, .WebDesign__Btn:focus {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}

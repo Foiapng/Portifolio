@@ -1,6 +1,7 @@
 * {
   width: 100%;
   font-family: 'Roboto Mono';
+  transition: ease-in-out 0.2s;
 }
 
 
@@ -19,6 +20,7 @@
   --accent-color: white;
   --secondary-color: #6E5BB5;
   width: 100%;
+  transition: ease-in-out 0.2s;
 }
 
 a {
@@ -37,11 +39,17 @@ body {
   display: flex;
   width: 100%;
   min-height: 100vh;
+  transition: ease-in-out 0.2s;
 }
 
 h1 {
   font-size: 2.5em;
   line-height: 1.1;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
 }
 
 button {
