@@ -5,6 +5,13 @@
     margin-top: 10%;
 }
 
+.WebDesign__Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8%;
+}
+
 .WebDesign__Titulo {
     width: fit-content;
     margin: auto;
@@ -30,4 +37,28 @@
 .WebDesign__Btn:hover, .WebDesign__Btn:focus {
     background-color: var(--secondary-color);
     color: var(--accent-color);
+}
+
+.WebDesign__Toggle {
+    padding: 2%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    border: 5px solid var(--secondary-color);
+    margin: 2% auto;
+    transition: ease-in-out 0.2s;
+    
+}
+
+.WebDesign__Toggle--1, .WebDesign__Toggle--2, .WebDesign__Toggle--3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.WebDesign__Toggle--1 img, .WebDesign__Toggle--2 img, .WebDesign__Toggle--3 img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
 }

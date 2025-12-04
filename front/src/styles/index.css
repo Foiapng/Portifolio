@@ -50,15 +50,17 @@ h1 {
 
 h2 {
   font-weight: 400;
+  font-size: 1.5em;
 }
 
 button {
   border-radius: 8px;
   border: none;
-  font-size: 1em;
-  font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
+}
+
+img {
+  border-radius: 30px;
 }
 
 
@@ -76,4 +78,20 @@ button {
 
 .route-enter {
   animation: fadeIn 1s ease-in-out forwards;
+}
+
+@media (max-width: 768px) {
+
+* {
+    font-size: 0.9rem;
+}
+
+}
+
+@media (max-width: 460px) {
+
+* {
+    font-size: 0.8rem;
+}
+
 }

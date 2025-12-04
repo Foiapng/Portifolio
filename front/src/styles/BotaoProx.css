@@ -1,0 +1,17 @@
+.BotaoProx {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 90px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    opacity: 0.3;
+    transition: 0.2s ease-in-out;
+}
+
+.BotaoProx:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  opacity: 1;
+}
+

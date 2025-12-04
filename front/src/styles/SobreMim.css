@@ -35,10 +35,9 @@
 }
 
 .SobreMim__Foto {
-    
-    height: 400px;
-    width: 400px;
-    border-radius: 30px;
+    margin: auto;
+    height: 40vh;
+    width: 40vh;
 }
 
 .SobreMim__Descricao{
@@ -46,6 +45,7 @@
 }
 
 .SobreMim__Texto {
+    margin: auto;
     width: 80%;
 }
 
@@ -58,4 +58,31 @@
 .SobreMim__Competencias {
     margin-top: 10%;
     
+}
+
+@media (max-width: 768px) {
+
+.SobreMim__Info {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SobreMim__Texto {
+    width: 100%;
+}
+
+
+.SobreMim__Foto {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+}
+
+
+@media (max-width: 460px) {
+
+
 }

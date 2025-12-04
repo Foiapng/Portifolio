@@ -2,13 +2,12 @@
     display: flex;
     position: sticky;
     width: 100%;
-    height: 5%;
+    height: 5vw;
     background-color: var(--secondary-color);
     justify-content: center;
-    padding: 30px 5%;
+    padding: 1vw 5%;
     box-sizing: border-box;
     max-width: 100vw;
-    font-size: 1rem;
     color: var(--main-color);
     top: 0%;
     transition: ease-in-out 0.2s;
@@ -22,7 +21,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 40px;
+    gap: 5vw;
 }
 
 .NavBar__Links li {
@@ -43,4 +42,29 @@
 .NavBar__Btn:hover {
     cursor: pointer;
     color: var(--accent-color);
+}
+
+
+@media (max-width: 768px) {
+
+.NavBar {
+    padding: 5vw 5%;
+}
+
+.NavBar__Links {
+    gap: 2vw;
+}
+}
+
+@media (max-width: 460px) {
+
+
+.NavBar {
+    padding: 5vw 5%;
+}
+
+.NavBar__Links {
+    gap: 1vw;
+}
+
 }
