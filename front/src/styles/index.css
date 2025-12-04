@@ -1,0 +1,71 @@
+* {
+  width: 100%;
+  font-family: 'Roboto Mono';
+}
+
+
+
+:root {
+
+
+
+  color-scheme: light dark;
+  color: var(--accent-color);
+  background-color: var(--main-color);
+
+
+
+  --main-color: #0B0812;
+  --accent-color: white;
+  --secondary-color: #6E5BB5;
+  width: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: var(--main-color);
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+a:hover {
+  color: var(--accent-color);
+}
+
+body {
+  justify-items: center;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0px);
+ 
+  }
+}
+
+.route-enter {
+  animation: fadeIn 1s ease-in-out forwards;
+}

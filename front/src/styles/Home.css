@@ -1,0 +1,53 @@
+.Home {
+  display: flex;
+  justify-content: center; 
+  align-content: center;
+  height: 60%;
+  background-image: url("/Placeholder.png");
+  background-repeat: repeat;
+  background-size: 80%;
+  animation-name: Background;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes Background {
+  from {background-position: -100% -100%;}
+  to {background-position: 100% 100%;}
+}
+
+.Home__Titulo {
+  top: 0%;
+  margin: 0;
+  display: flex;
+  padding: 2% 0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--main-color);
+
+}
+
+.Home__Titulo h1, .Home__Titulo h2 {
+  margin: 0;
+}
+
+.Home__Titulo h2 {
+  color: var(--secondary-color);
+}
+
+.Home__Btn {
+  margin-top: 10%;
+  width: 40%;
+  height: 100px;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  font-size: 1.5rem;
+  transition: 0.2s;
+}
+
+.Home__Btn:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
