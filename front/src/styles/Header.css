@@ -44,6 +44,11 @@
     color: var(--accent-color);
 }
 
+@keyframes fadeInHeader {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 
 @media (max-width: 768px) {
 
@@ -51,20 +56,29 @@
     padding: 5vw 5%;
 }
 
+.NavBar a{
+    font-size: 3.2vw;
+}
+
 .NavBar__Links {
-    gap: 2vw;
+    gap: 4vw;
 }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
+
 
 
 .NavBar {
-    padding: 5vw 5%;
+    padding: 40px 5%;
+}
+
+.NavBar a{
+    font-size: 4.2vw;
 }
 
 .NavBar__Links {
-    gap: 1vw;
+    gap: 8.5vw;
 }
 
 }

@@ -59,13 +59,36 @@
   height: 80px;
 }
 
+
+
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
+
+.Home__Titulo {
+  padding: 10% 0;
+}
+
+.Home__Titulo h1 {
+  font-size: 2.5rem;
+}
+
+.Home__Titulo h2 {
+  font-size: 1.5rem;
+}
+
+.Home {
+  background-size: 300%;
+
+  height: 68vh;
+}
 
 .Home__Btn {
-  margin-top: 50%;
+  margin-top: 30%;
   height: 80px;
 }
+
+
+
 
 }

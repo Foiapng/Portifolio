@@ -66,7 +66,7 @@ img {
 
 @keyframes fadeIn {
   from {
-    opacity: 0.5;
+    opacity: 0.2;
     filter: blur(5px);
   }
   to {
@@ -77,7 +77,7 @@ img {
 }
 
 .route-enter {
-  animation: fadeIn 1s ease-in-out forwards;
+  animation: fadeIn 0.5s ease-in forwards;
 }
 
 @media (max-width: 768px) {
@@ -88,10 +88,10 @@ img {
 
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
 
 * {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 }

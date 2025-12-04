@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 2%;
 }
 
 .SobreMim__FlexContainer {
@@ -45,7 +46,6 @@
 }
 
 .SobreMim__Texto {
-    margin: auto;
     width: 80%;
 }
 
@@ -82,7 +82,47 @@
 }
 
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
+    .SobreMim {
+        text-align: center;
+        justify-content: center;
+        padding: 10% 0;
 
+    }
 
+    .SobreMim__Titulo {
+        margin: auto;
+        padding: 10% 0 25%;
+        background-color: var(--secondary-color);
+        color: var(--main-color);
+        border-radius: 30px;
+        margin-bottom: -20%;
+        font-size: 2.2rem;
+        
+    }
+
+    .SobreMim__Nome .SobreMim__Subtitulo {
+        display: none;
+    }
+    
+    .SobreMim__Subtitulo {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 2%;
+        padding: 2% 0;
+        border-radius: 15px;
+        color: var(--main-color);
+        background-color: var(--secondary-color);
+    }
+
+    .SobreMim__Nome{
+        width: fit-content;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .SobreMim__Descricao{
+        margin: 5% 0 10% 0;
+    }
 }

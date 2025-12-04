@@ -1,14 +1,11 @@
 import './styles/WebDesign.css'
-import './styles/BotaoProx.css'
 import Header from './Header'
 import useAnimateRoutes from './hooks/useAnimatedRoutes/index.jsx';
 import Footer from './Footer.jsx';
-import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 
 
 function WebDesign() {
-const navigate = useNavigate();
 const animationClass = useAnimateRoutes()
 const [ativo, setAtivo] = useState (0);
 
@@ -16,7 +13,6 @@ const [ativo, setAtivo] = useState (0);
   <>
   <section className={animationClass}>
     <Header/>
-      <button className='BotaoProx' onClick={() => navigate('/Games') } > Próximo </button>
       <section className='WebDesign__Box'>
     <section className='WebDesign'>
         <h1 className='WebDesign__Titulo'>Alguns projetos que participei</h1>

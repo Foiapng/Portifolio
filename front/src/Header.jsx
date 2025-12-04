@@ -7,19 +7,19 @@ function Header() {
     <section className='NavBar'>
         <ul className='NavBar__Links'>
             <li>
-            <Link to="/" className='Navbar__Btn' >| HOME |</Link>
+            <Link to="/" className='Navbar__Btn' >HOME</Link>
             </li>
 
             <li>
-            <Link to="/SobreMim" className='Navbar__Btn' >| SOBRE MIM |</Link>
+            <Link to="/SobreMim" className='Navbar__Btn' >SOBRE MIM</Link>
             </li>
 
             <li>
-            <Link to="/WebDesign" className='Navbar__Btn' >| WEB DESIGN |</Link>
+            <Link to="/WebDesign" className='Navbar__Btn' >WEB DESIGN</Link>
             </li>
 
             <li>
-            <Link to="/Games" className='Navbar__Btn' >| GAMES |</Link>
+            <Link to="/Games" className='Navbar__Btn' >GAMES</Link>
             </li>
         </ul>
     </section>

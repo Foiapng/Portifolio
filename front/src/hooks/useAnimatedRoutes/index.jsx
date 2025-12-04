@@ -6,7 +6,7 @@ const useAnimateRoutes = () => {
     useEffect(()=>{
         const timeoutId = setTimeout(()=>{
             setAnimationClass('')
-        }, 1000)
+        }, 500)
 
         return () => {
             clearTimeout(timeoutId)

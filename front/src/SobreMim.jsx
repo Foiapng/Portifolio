@@ -1,20 +1,19 @@
 import './styles/SobreMim.css'
-import './styles/BotaoProx.css'
 import Header from './Header'
 import Footer from './Footer.jsx';
 import useAnimateRoutes from './hooks/useAnimatedRoutes/index.jsx';
-import { useNavigate } from 'react-router-dom'
+
 
 
 function SobreMim() {
 const animationClass = useAnimateRoutes()
-const navigate = useNavigate();
+
 
  return(  
   <>
     <section className={animationClass}>
     <Header/> 
-    <button className='BotaoProx' onClick={() => navigate('/WebDesign') } > Próximo </button>
+
     <section className='SobreMim'>
       <section className='SobreMim__FlexContainer'>
         <section className='SobreMim__Nome'>
@@ -60,7 +59,7 @@ const navigate = useNavigate();
             resolução de
             problemas,
             Aprendizagem
-            rápida
+            rápida.
 
           </aside>
       </section>
