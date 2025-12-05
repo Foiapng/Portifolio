@@ -36,9 +36,8 @@
 }
 
 .SobreMim__Foto {
-    margin: auto;
-    height: 40vh;
-    width: 40vh;
+    height: 60vh;
+    width: 60vh;
 }
 
 .SobreMim__Descricao{
@@ -62,22 +61,41 @@
 
 @media (max-width: 768px) {
 
-.SobreMim__Info {
-    flex-direction: column;
-    justify-content: center;
-}
+    .SobreMim__Nome {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.SobreMim__Texto {
-    width: 100%;
-}
+    .SobreMim__Titulo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .SobreMim__Subtitulo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .SobreMim__Info {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .SobreMim__Texto {
+        margin: auto;
+        width: 100%;
+    }
 
 
-.SobreMim__Foto {
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    border-radius: 30px;
-}
+    .SobreMim__Foto {
+        margin: auto;
+        margin-bottom: 5%;
+        height: 100%;
+        width: 100%;
+        border-radius: 30px;
+    }
 
 }
 
@@ -98,7 +116,6 @@
         border-radius: 30px;
         margin-bottom: -20%;
         font-size: 2.2rem;
-        
     }
 
     .SobreMim__Nome .SobreMim__Subtitulo {
@@ -124,5 +141,9 @@
 
     .SobreMim__Descricao{
         margin: 5% 0 10% 0;
+    }
+
+    .SobreMim__Foto {
+        margin: 0%;
     }
 }

@@ -48,6 +48,9 @@
     to {opacity: 1;}
 }
 
+.NavBar a{
+    color: var(--main-color);
+}
 
 @media (max-width: 768px) {
 

@@ -29,7 +29,7 @@
 .WebDesign__Btn {
     width: 25%;
     height: 90px;
-    font-size: 1.2em;
+    font-size: 2vw;
     background-color: var(--main-color);
     border: 5px solid var(--secondary-color);
     color: var(--secondary-color);
@@ -44,9 +44,9 @@
 .WebDesign__Toggle {
     padding: 2%;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--main-color);
-    /* border: 5px solid var(--secondary-color); */
+    border: 5px solid var(--secondary-color);
     margin: 2% auto;
     transition: ease-in-out 0.2s;
     
@@ -77,6 +77,10 @@
 
     .WebDesign__Toggle--1 img, .WebDesign__Toggle--2 img, .WebDesign__Toggle--3 img {
         width: 100%;
+    }
+
+    .WebDesign__Btn {
+        font-size: 3vw;
     }
 
 }
