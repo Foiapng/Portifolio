@@ -27,7 +27,7 @@ const animationClass = useAnimateRoutes()
           <aside className='SobreMim__Descricao'>
             Meu nome é Vinicius, tenho 19 anos, desenho, faço arte para jogos e sou Dev Frontend, atualmente moro em São Paulo e estudo na Fatec de Itaquera.
 <br/>
-Alguns dos meus projetos favoritos que já participei são <a href="https://booean.itch.io/ainda-e-meia-noite" target='blank'>Ainda é Meia Noite</a>, onde minha equipe ganhou 5º lugar de uma gamejam, Corruptura, um jogo que ainda estou participando e agora, esse portifólio
+Alguns dos meus projetos favoritos que já participei são <a href="https://booean.itch.io/ainda-e-meia-noite" target='blank'>Ainda é Meia Noite</a>, onde minha equipe ganhou 5º lugar de uma gamejam, Corruptura, um jogo que ainda estou participando e agora, esse portifólio (Teste no celular também!)
           </aside>
           <h2 className='SobreMim__Subtitulo'>Formações</h2>
           <section className='SobreMim__Educacao'>
