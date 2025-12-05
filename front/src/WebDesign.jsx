@@ -19,7 +19,6 @@ const [ativo, setAtivo] = useState (0);
         <section className='WebDesign__BtnGroup'>
           <button className='WebDesign__Btn' onClick={() => setAtivo(1)}>Cosmica</button>
           <button className='WebDesign__Btn' onClick={() => setAtivo(2)}>Novo Horizonte Ambiental</button>
-          <button className='WebDesign__Btn'onClick={() => setAtivo(3)}>Integração APIs</button>
         </section>
         <section className='WebDesign__Toggle'>
 
@@ -39,14 +38,6 @@ const [ativo, setAtivo] = useState (0);
           </section>
           )}
 
-          {ativo === 3 &&(
-          <section className='WebDesign__Toggle--3'>
-            <img src="./Integracao/TemaEscuro.png" alt="Home no tema escuro Integração de APIs" />
-            <img src="./Integracao/TemaRoxo.png" alt="Home no tema roxo Integração de APIs" />
-            <img src="./Integracao/Login.png" alt="Login Integração de APIs" />
-            <img src="./Integracao/Crud.png" alt="CRUD Integração de APIs" />
-          </section>
-          )}
         </section>
         </section>
       </section >

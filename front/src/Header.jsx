@@ -18,9 +18,9 @@ function Header() {
             <Link to="/WebDesign" className='Navbar__Btn' >WEB DESIGN</Link>
             </li>
 
-            <li>
+            {/* <li>
             <Link to="/Games" className='Navbar__Btn' >GAMES</Link>
-            </li>
+            </li> */}
         </ul>
     </section>
  );

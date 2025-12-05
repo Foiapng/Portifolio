@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import useAnimateRoutes from './hooks/useAnimatedRoutes/index.jsx';
 import Footer from './Footer.jsx';
 
+
 function Home() {
   const navigate = useNavigate();
   const animationClass = useAnimateRoutes()
