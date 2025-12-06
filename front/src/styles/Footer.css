@@ -7,7 +7,7 @@
     text-align: center;
     box-shadow: 0 -30px 30px var(--main-color);
     bottom: 0%;
-    font-size: 0.7vw;
+    color: var(--secondary-color);
 }
 
 .Footer__Contato {
@@ -22,7 +22,6 @@
 
 .Footer__Contato aside{
     color: var(--secondary-color);
-    opacity: 0.4;
     width: fit-content;
     margin: auto;
 }
@@ -32,30 +31,31 @@
     width: fit-content;
     margin: auto;
     cursor: pointer;
-}
-
-.Footer__Contato aside:hover {
-    opacity: 1;
 
 }
 
-.Footer__Autoria{
-    margin: auto;
-    margin-bottom: 2vw;
-    text-align: center;
-    color: var(--secondary-color);
-}
 
 @media (max-width: 768px) {
     .Footer__Contato{
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: auto auto;
         gap: 1vw;
-        justify-content: center;
+        justify-content: space-around;
     }
 
 }
 
 @media (max-width: 480px) {
+    .Footer__Contato aside a{
+        font-size: 2.5vw;
+    }
 
+    .Footer aside {
+        font-size: 2.5vw;
+    }
+
+    .Footer {
+        margin-bottom: 5%;
+    }
 
 }

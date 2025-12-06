@@ -41,7 +41,6 @@
 .WebDesign__Btn:hover, .WebDesign__Btn:focus {
     background-color: var(--secondary-color);
     color: var(--accent-color);
-    border: 5px solid var(--main-color);
 }
 
 .WebDesign__Toggle {
