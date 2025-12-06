@@ -98,6 +98,10 @@
     animation-iteration-count: 1;
 }
 
+.WebDesign__Toggle--1 p:nth-child(1), .WebDesign__Toggle--2 p:nth-child(1), .WebDesign__Toggle--3 p:nth-child(1){
+    animation-delay: 0.5s;
+}
+
 .WebDesign__Toggle--1 p:nth-child(3), .WebDesign__Toggle--2 p:nth-child(3), .WebDesign__Toggle--3 p:nth-child(3){
     animation-delay: 1.5s;
 }
@@ -118,6 +122,10 @@
     opacity: 0;
     animation: fadeInImg 0.2s forwards ease-in-out;
     animation-iteration-count: 1;
+}
+
+.WebDesign__Toggle--1 img:nth-child(2), .WebDesign__Toggle--2 img:nth-child(2), .WebDesign__Toggle--3 img:nth-child(2){
+    animation-delay: 0.5s;
 }
 
 .WebDesign__Toggle--1 img:nth-child(4), .WebDesign__Toggle--2 img:nth-child(4), .WebDesign__Toggle--3 img:nth-child(4){
@@ -181,6 +189,8 @@
 
     .WebDesign__Toggle--1 img, .WebDesign__Toggle--2 img, .WebDesign__Toggle--3 img {
         width: 100%;
+        margin-right: -2%;
+
     }
 
     .WebDesign__Btn {
@@ -227,6 +237,10 @@
         animation-delay: 2s;
     }
 
+    .WebDesign__Toggle--1 img, .WebDesign__Toggle--2 img, .WebDesign__Toggle--3 img {
+        margin-right: 0%;
+
+    }
 
 
 
