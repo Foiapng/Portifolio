@@ -24,16 +24,22 @@ const [ativo, setAtivo] = useState (0);
 
           {ativo === 1 &&(
             <section className='WebDesign__Toggle--1'>
+              <p>Homepage Cosmica</p>
             <img src="./Cosmica/Home.png" alt="Home Cosmica" />
+              <p>Catálogo Cosmica</p>
             <img src="./Cosmica/Catalogo.png" alt="Catalogo Cosmica" />
+              <p>Figma Cosmica</p>
             <img src="./Cosmica/Figma.png" alt="Figma Cosmica" />
           </section>
           )}
 
           {ativo === 2 &&(
           <section className='WebDesign__Toggle--2'>
+            <p>Login Novo Horizonte Ambiental</p>
             <img src="./Novo Horizonte/Login.png" alt="Login Novo Horizonte Ambiental" />
+            <p>Recuperar Senha Novo Horizonte Ambiental</p>
             <img src="./Novo Horizonte/Recuperar.png" alt="Recuperar Senha Novo Horizonte Ambiental" />
+            <p>Figma</p>
             <img src="./Novo Horizonte/Figma.png" alt="Figma Novo Horizonte Ambiental" />
           </section>
           )}

@@ -66,7 +66,7 @@
 @media (max-width: 480px) {
 
 .Home__Titulo {
-  padding: 10% 0;
+  padding: 5% 0;
 }
 
 .Home__Titulo h1 {
@@ -78,9 +78,8 @@
 }
 
 .Home {
-  background-size: 300%;
-
-  height: 68vh;
+  background-size: 200%;
+  height: 50vh;
 }
 
 .Home__Btn {
